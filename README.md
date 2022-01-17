@@ -20,12 +20,12 @@ Or install it yourself as:
 
 ## Usage
 
-The library needs to be configured with your project's API key. Set
-`DoubleLoop.api_key` to its value:
+The library needs to be configured with your project's API token. Set
+`DoubleLoop.api_token` to its value:
 
 ```ruby
 # Set the API token (available at https://app.doubleloop.app/organizations/settings/integrations)
-DoubleLoop.api_token = "..."
+DoubleLoop.api_token = "my-secret-token"
 
 # create a Metric Data Point
 result = DoubleLoop::Metric.create(

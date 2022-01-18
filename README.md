@@ -1,4 +1,5 @@
 # doubleloop-ruby
+[![Changelog](https://img.shields.io/badge/DoubleLoop-Changelog-blue)](https://app.doubleloop.app/p/DoubleLoop/changelog-doubleloop-ruby-3)
 
 A gem to interact with [DoubleLoop's API](https://app.doubleloop.app/apidocs/1.0)
 

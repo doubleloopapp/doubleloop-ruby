@@ -3,7 +3,7 @@
 require_relative "lib/double_loop"
 
 Gem::Specification.new do |spec|
-  spec.name = "doubleloop-ruby"
+  spec.name = "doubleloop"
   spec.version = DoubleLoop::VERSION
   spec.authors = ["DoubleLoop Engineering"]
   spec.email = ["engineering@doubleloop.app"]

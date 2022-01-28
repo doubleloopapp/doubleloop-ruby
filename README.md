@@ -5,10 +5,9 @@ A gem to interact with [DoubleLoop's API](https://app.doubleloop.app/apidocs/1.0
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
+Currently the gem is unpublished from rubygems and has to be installed from Github: 
 ```ruby
-gem 'doubleloop'
+gem 'doubleloop', github: 'doubleloopapp/doubleloop-ruby'
 ```
 
 And then execute:

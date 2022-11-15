@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    doubleloop-ruby (0.1.0)
+    doubleloop (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -68,7 +68,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  doubleloop-ruby!
+  doubleloop!
   pry
   rake
   rspec

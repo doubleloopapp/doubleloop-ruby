@@ -32,7 +32,7 @@ result = DoubleLoop::Metric.create(
   name: "My Metric",
   date: Datetime.parse("2021/11/25 14:22:30"),
   value: 1_000,
-  metric_type: DoubleLoop::Metric::COUNTS
+  roll_up: DoubleLoop::Metric::SUM # See DoubleLoop::Metric::ROLL_UP_TYPES for more options
 )
 
 # get the metric data

@@ -12,7 +12,7 @@ RSpec.describe DoubleLoop::Metric do
             "name": "mpd test metric",
             "created_at": "2022-01-16T04:27:17Z",
             "updated_at": "2022-01-16T04:27:17Z",
-            "metric_type": "counts",
+            "roll_up": "sum",
             "strategy_id": null,
             "external_url": null,
             "strategy_type": null,
@@ -42,7 +42,7 @@ RSpec.describe DoubleLoop::Metric do
             "created_at": "2022-01-16T04:27:17Z",
             "updated_at": "2022-01-16T04:27:17Z"
           },
-          "metric_type": "counts"
+          "roll_up": "sum"
         }
       JSON
     end
@@ -50,7 +50,7 @@ RSpec.describe DoubleLoop::Metric do
     it "creates and returns a Metric Data Point with the specified params" do
       DoubleLoop.api_token = "foobarbaz"
 
-      params = { name: "mpd test metric", date: Time.now, value: 69, metric_type: "counts" }
+      params = { name: "mpd test metric", date: Time.now, value: 69, roll_up: "sum" }
 
       stub = stub_request(:post, "#{DoubleLoop.endpoint}/metrics/v1")
              .with(

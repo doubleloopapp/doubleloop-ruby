@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email = ["engineering@doubleloop.app"]
 
   spec.summary = "Interact with DoubleLoop's API"
-  spec.description = "This gem provides an interface to interact with DoubleLoop's API "\
+  spec.description = "This gem provides an interface to interact with DoubleLoop's API " \
                      "(https://app.doubleloop.app/apidocs/1.0.html)"
   spec.homepage = "https://github.com/doubleloopapp/doubleloop-ruby"
   spec.license = "MIT"
@@ -30,14 +30,6 @@ Gem::Specification.new do |spec|
   spec.bindir = "exe"
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
-
-  spec.add_development_dependency "pry"
-  spec.add_development_dependency "rspec"
-  spec.add_development_dependency "rubocop"
-  spec.add_development_dependency "rubocop-performance"
-  spec.add_development_dependency "rubocop-rake"
-  spec.add_development_dependency "rubocop-rspec"
-  spec.add_development_dependency "webmock"
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html

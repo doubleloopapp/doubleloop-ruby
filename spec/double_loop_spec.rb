@@ -2,7 +2,7 @@
 
 RSpec.describe DoubleLoop do
   it "has a version number" do
-    expect(DoubleLoop::VERSION).not_to be nil
+    expect(DoubleLoop::VERSION).not_to be_nil
   end
 
   describe ".api_token=" do
